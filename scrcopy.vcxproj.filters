@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\ticks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\binary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_merger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trait\packet_source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trait\packet_sink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="demuxer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trait\frame_sink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trait\frame_source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vecdeque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="delay_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fps_counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\ticks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\net.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="packet_merger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trait\packet_source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="demuxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trait\frame_source.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="options.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fps_counter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
