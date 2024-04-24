@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T09:33:30.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="8dHOBc9oZBFF5ZSyllAa" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T09:44:59.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="G1cuPT_N8QgiZ9W4d1NZ" version="24.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kUJeHTTuYSsyuOznCwPa-12" value="packet_source" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="390" width="160" height="147" as="geometry">
+          <mxGeometry x="50" y="390" width="160" height="216" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -58,11 +58,20 @@
         <mxCell id="kUJeHTTuYSsyuOznCwPa-15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
           <mxGeometry y="78" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="kUJeHTTuYSsyuOznCwPa-16" value="net_init(void): bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
+        <mxCell id="kUJeHTTuYSsyuOznCwPa-16" value="+ sc_packet_source_init(source: sc_packet_source*): void &#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kUJeHTTuYSsyuOznCwPa-17" value="net_init(void): bool" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
+        <mxCell id="kUJeHTTuYSsyuOznCwPa-17" value="+ sc_packet_source_add_sink(source: sc_packet_source*, sink: sc_packet_sink*): void&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kUJeHTTuYSsyuOznCwPa-44" value="+ sc_packet_source_sinks_open(source: sc_packet_source*, ctx: AVCodecContext*)&#xa;&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kUJeHTTuYSsyuOznCwPa-45" value="+ sc_packet_source_sinks_push(source: sc_packet_source*, packet: AVPacket*): bool&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kUJeHTTuYSsyuOznCwPa-46" value="+ sc_packet_source_sinks_disable(source: sc_packet_source*): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="kUJeHTTuYSsyuOznCwPa-12">
+          <mxGeometry y="190" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="kUJeHTTuYSsyuOznCwPa-19" value="sc_packet_sink      " style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="350" width="160" height="190" as="geometry">
