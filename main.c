@@ -5,6 +5,7 @@
 #include "util/log.h"
 #include "util/net.h"
 #include "demuxer.h"
+#include <stdlib.h>
 #include "decoder.h"
 //#include "delay_buffer.h"
 #include "screen.h"
