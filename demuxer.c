@@ -91,8 +91,8 @@ sc_demuxer_recv_packet(struct sc_demuxer* demuxer, AVPacket* packet) {
 
     uint64_t pts_flags = sc_read64be(header);
     uint32_t len = sc_read32be(&header[8]);
-  /*  printf("PTS flags: %" PRIx64 "\n", pts_flags);
-    printf("Packet size: %" PRIx32 "\n", len);*/
+    /*  printf("PTS flags: %" PRIx64 "\n", pts_flags);
+      printf("Packet size: %" PRIx32 "\n", len);*/
     assert(len);
 
     if (av_new_packet(packet, len)) {
@@ -235,9 +235,9 @@ run_demuxer(void* data) {
             status = SC_DEMUXER_STATUS_EOS;
             break;
         }
-        if (i++%10 == 0)
-        printf("Packet receiving\n");
-        
+        if (i++ % 10 == 0)
+            printf("Packet receiving\n");
+
         if (must_merge_config_packet) {
             // Prepend any config packet to the next media packet
             ok = sc_packet_merger_merge(&merger, packet);
@@ -275,19 +275,19 @@ end:
 
 void
 sc_demuxer_init(struct sc_demuxer* demuxer, const char* name, sc_socket socket//,
-    /*const struct sc_demuxer_callbacks* cbs, void* cbs_userdata*/) {
+/*const struct sc_demuxer_callbacks* cbs, void* cbs_userdata*/) {
     assert(socket != SC_SOCKET_NONE);
 
     demuxer->name = name; // statically allocated
     demuxer->socket = socket;
     sc_packet_source_init(&demuxer->packet_source);
     assert(&demuxer->packet_source);
-  //  assert(cbs && cbs->on_ended);
+    //  assert(cbs && cbs->on_ended);
 
-   /* demuxer->cbs = cbs;
-    demuxer->cbs_userdata = cbs_userdata;
-    */
-    }
+     /* demuxer->cbs = cbs;
+      demuxer->cbs_userdata = cbs_userdata;
+      */
+}
 
 bool
 sc_demuxer_start(struct sc_demuxer* demuxer) {

@@ -9,13 +9,13 @@ C:\Users\HIZ1COB\Developer\vs-project\scrcopy\util\binary.h(54,20): warning C424
 C:\Users\HIZ1COB\Developer\vs-project\scrcopy\util\binary.h(68,19): warning C4244: 'initializing': conversion from 'float' to 'int32_t', possible loss of data
   (compiling source file 'main.c')
   
-C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(26,16): warning C4047: '==': 'SOCKET' differs in levels of indirection from 'void *'
-C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(40,22): warning C4047: 'function': 'sc_socket' differs in levels of indirection from 'SOCKET'
-C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(40,22): warning C4024: 'net_connect': different types for formal and actual parameter 1
-C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(52,48): warning C4047: 'function': 'sc_socket' differs in levels of indirection from 'SOCKET'
-C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(52,48): warning C4024: 'sc_demuxer_init': different types for formal and actual parameter 3
-C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(25,12): warning C4047: 'initializing': 'SOCKET' differs in levels of indirection from 'sc_socket'
-C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(90,2): warning C4102: 'end': unreferenced label
+C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(29,16): warning C4047: '==': 'SOCKET' differs in levels of indirection from 'void *'
+C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(43,22): warning C4047: 'function': 'sc_socket' differs in levels of indirection from 'SOCKET'
+C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(43,22): warning C4024: 'net_connect': different types for formal and actual parameter 1
+C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(55,48): warning C4047: 'function': 'sc_socket' differs in levels of indirection from 'SOCKET'
+C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(55,48): warning C4024: 'sc_demuxer_init': different types for formal and actual parameter 3
+C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(28,12): warning C4047: 'initializing': 'SOCKET' differs in levels of indirection from 'sc_socket'
+C:\Users\HIZ1COB\Developer\vs-project\scrcopy\main.c(91,2): warning C4102: 'end': unreferenced label
   scrcopy.vcxproj -> C:\Users\HIZ1COB\Developer\vs-project\scrcopy\x64\Debug\scrcopy.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

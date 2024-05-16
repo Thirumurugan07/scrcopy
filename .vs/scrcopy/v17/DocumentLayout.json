@@ -1,0 +1,547 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\demuxer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:demuxer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\decoder.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:decoder.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\memory.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\log.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\log.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:trait\\frame_source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\frame_buffer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:frame_buffer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\demuxer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:demuxer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\options.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:options.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\opengl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:opengl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:trait\\packet_source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\opengl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:opengl.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\binary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\binary.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\memory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\memory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\thread.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\thread.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\ticks.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\ticks.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_source.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:trait\\packet_source.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_sink.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:trait\\packet_sink.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\net.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\net.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:options.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\ticks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\ticks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_source.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:trait\\frame_source.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\fps_counter.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:fps_counter.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\compat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:compat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\compat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:compat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\vecdeque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:util\\vecdeque.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_sink.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4771D376-133F-489E-81A1-D4990D8C3506}|scrcopy.vcxproj|solutionrelative:trait\\frame_sink.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "binary.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\binary.h",
+              "RelativeDocumentMoniker": "util\\binary.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\binary.h",
+              "RelativeToolTip": "util\\binary.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-02T06:52:17.548Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frame_buffer.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\frame_buffer.c",
+              "RelativeDocumentMoniker": "frame_buffer.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\frame_buffer.c",
+              "RelativeToolTip": "frame_buffer.c",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-16T05:06:20.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frame_source.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_source.c",
+              "RelativeDocumentMoniker": "trait\\frame_source.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_source.c",
+              "RelativeToolTip": "trait\\frame_source.c",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-16T05:01:20.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "screen.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\screen.h",
+              "RelativeDocumentMoniker": "screen.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\screen.h",
+              "RelativeToolTip": "screen.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-15T09:03:41.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-04T10:30:28.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "memory.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\memory.h",
+              "RelativeDocumentMoniker": "util\\memory.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\memory.h",
+              "RelativeToolTip": "util\\memory.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-06T08:35:35.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "demuxer.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\demuxer.c",
+              "RelativeDocumentMoniker": "demuxer.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\demuxer.c",
+              "RelativeToolTip": "demuxer.c",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAAAPYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-08T09:10:32.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "thread.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\thread.c",
+              "RelativeDocumentMoniker": "util\\thread.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\thread.c",
+              "RelativeToolTip": "util\\thread.c",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-15T07:13:24.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "decoder.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\decoder.c",
+              "RelativeDocumentMoniker": "decoder.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\decoder.c",
+              "RelativeToolTip": "decoder.c",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAswC0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-05T07:56:16.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "options.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\options.c",
+              "RelativeDocumentMoniker": "options.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\options.c",
+              "RelativeToolTip": "options.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-05T05:17:46.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "packet_source.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_source.c",
+              "RelativeDocumentMoniker": "trait\\packet_source.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_source.c",
+              "RelativeToolTip": "trait\\packet_source.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-24T08:58:34.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ticks.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\ticks.c",
+              "RelativeDocumentMoniker": "util\\ticks.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\ticks.c",
+              "RelativeToolTip": "util\\ticks.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-23T09:27:52.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "packet_source.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_source.h",
+              "RelativeDocumentMoniker": "trait\\packet_source.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_source.h",
+              "RelativeToolTip": "trait\\packet_source.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-24T08:59:41.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "packet_sink.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_sink.h",
+              "RelativeDocumentMoniker": "trait\\packet_sink.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\packet_sink.h",
+              "RelativeToolTip": "trait\\packet_sink.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T06:15:07.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "demuxer.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\demuxer.h",
+              "RelativeDocumentMoniker": "demuxer.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\demuxer.h",
+              "RelativeToolTip": "demuxer.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-23T11:10:04.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "net.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\net.c",
+              "RelativeDocumentMoniker": "util\\net.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\net.c",
+              "RelativeToolTip": "util\\net.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-04T05:34:54.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "memory.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\memory.c",
+              "RelativeDocumentMoniker": "util\\memory.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\memory.c",
+              "RelativeToolTip": "util\\memory.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-06T08:35:30.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "log.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\log.c",
+              "RelativeDocumentMoniker": "util\\log.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\log.c",
+              "RelativeToolTip": "util\\log.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-05T05:34:20.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "log.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\log.h",
+              "RelativeDocumentMoniker": "util\\log.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\log.h",
+              "RelativeToolTip": "util\\log.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T08:33:24.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "options.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\options.h",
+              "RelativeDocumentMoniker": "options.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\options.h",
+              "RelativeToolTip": "options.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T05:59:41.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ticks.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\ticks.h",
+              "RelativeDocumentMoniker": "util\\ticks.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\ticks.h",
+              "RelativeToolTip": "util\\ticks.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T08:35:59.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frame_source.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_source.h",
+              "RelativeDocumentMoniker": "trait\\frame_source.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_source.h",
+              "RelativeToolTip": "trait\\frame_source.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T08:48:03.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "screen.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\screen.c",
+              "RelativeDocumentMoniker": "screen.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\screen.c",
+              "RelativeToolTip": "screen.c",
+              "ViewState": "AQIAAA4BAAAAAAAAAAAuwEUBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-12T09:44:40.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "fps_counter.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\fps_counter.c",
+              "RelativeDocumentMoniker": "fps_counter.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\fps_counter.c",
+              "RelativeToolTip": "fps_counter.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-05T06:37:23.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "compat.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\compat.c",
+              "RelativeDocumentMoniker": "compat.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\compat.c",
+              "RelativeToolTip": "compat.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-04-05T11:12:27.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "opengl.c",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\opengl.c",
+              "RelativeDocumentMoniker": "opengl.c",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\opengl.c",
+              "RelativeToolTip": "opengl.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-05-06T08:16:29.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "compat.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\compat.h",
+              "RelativeDocumentMoniker": "compat.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\compat.h",
+              "RelativeToolTip": "compat.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-05T10:28:19.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "common.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\common.h",
+              "RelativeDocumentMoniker": "common.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\common.h",
+              "RelativeToolTip": "common.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T05:35:45.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "config.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\config.h",
+              "RelativeDocumentMoniker": "config.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\config.h",
+              "RelativeToolTip": "config.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T05:34:15.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "vecdeque.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\vecdeque.h",
+              "RelativeDocumentMoniker": "util\\vecdeque.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\util\\vecdeque.h",
+              "RelativeToolTip": "util\\vecdeque.h",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T09:59:03.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frame_sink.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_sink.h",
+              "RelativeDocumentMoniker": "trait\\frame_sink.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\trait\\frame_sink.h",
+              "RelativeToolTip": "trait\\frame_sink.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T06:15:13.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "opengl.h",
+              "DocumentMoniker": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\opengl.h",
+              "RelativeDocumentMoniker": "opengl.h",
+              "ToolTip": "C:\\Users\\HIZ1COB\\Developer\\vs-project\\scrcopy\\opengl.h",
+              "RelativeToolTip": "opengl.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-25T05:59:13.666Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

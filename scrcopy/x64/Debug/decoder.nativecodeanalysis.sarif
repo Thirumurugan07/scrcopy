@@ -1,0 +1,1983 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'bgr_frame'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 9,
+                  "endLine": 159,
+                  "endColumn": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sc_decoder_push",
+                  "decoratedName": "sc_decoder_push",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 144,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 153,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 154,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'bgr_frame' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 155,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'bgr_frame' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'file' could be '0':  this does not adhere to the specification for the function 'fwrite'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 9,
+                  "endLine": 173,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sc_decoder_push",
+                  "decoratedName": "sc_decoder_push",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 144,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 153,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 154,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 162,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 166,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'file' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 168,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'file' is an In/Out argument to 'fwrite' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:297)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'file' should not be NULL, because this is not consistent with the SAL annotation on 'fwrite'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'file' could be '0':  this does not adhere to the specification for the function 'fclose'. See line 173 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                },
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 9,
+                  "endLine": 174,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sc_decoder_push",
+                  "decoratedName": "sc_decoder_push",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 144,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 153,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 154,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 162,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 166,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'file' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 168,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'file' is an In/Out argument to 'fwrite' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:297)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'file' is an Input to 'fclose' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:152)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+                          },
+                          "region": {
+                            "startLine": 174,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'file' should not be NULL, because this is not consistent with the SAL annotation on 'fclose'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/HIZ1COB/Developer/vs-project/scrcopy/decoder.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4a072ad3124b6fc848046cebbf21eaf7339b374e9505f55d13a6dceabfb7715c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/decoder.h"
+          },
+          "hashes": {
+            "sha-256": "0c41a6b94998ed3597045b39fc0ce8c8d6a39d5159ad59d813188ef113902328"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/common.h"
+          },
+          "hashes": {
+            "sha-256": "9ef0fd254f071385dc45b5e841b15349162a23f37383b18ac532da3f927ebee7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/config.h"
+          },
+          "hashes": {
+            "sha-256": "81e7f1470808e5c1fd136fd96c12248a695166474ed5c2948414b21742cf9e93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/compat.h"
+          },
+          "hashes": {
+            "sha-256": "be3e8b2ce26a23d73f36efda52a6e6ececd5bfb3ef91dd56115fec0188c57602"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavcodec/version.h"
+          },
+          "hashes": {
+            "sha-256": "4083c324fba041dc805e1aeb1ddd819de7b9283c6464a1f06e4e37037696c19b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/version.h"
+          },
+          "hashes": {
+            "sha-256": "57ad397f4f6722a303ed2066798eb7f09d44eb20eb5a318447b335f6c07a68b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/macros.h"
+          },
+          "hashes": {
+            "sha-256": "57aaca6f7a01be1cf0499df7b35546634174e96ece8822cd76e87a552a6977ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/avconfig.h"
+          },
+          "hashes": {
+            "sha-256": "f17200632217db04116c341b233c6007cd6d3dbdc1bd6783f24a7cc9040a3f47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavcodec/version_major.h"
+          },
+          "hashes": {
+            "sha-256": "45822df072fee7d455a0624d80dbda073a66199b2ba1d9443a1dc503f424fd11"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavformat/version.h"
+          },
+          "hashes": {
+            "sha-256": "17038da626e17556908198016d2939c5de011663e0b0c5f9588ab2719b655215"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavformat/version_major.h"
+          },
+          "hashes": {
+            "sha-256": "b43e9760c6de814e7cb17e94c8aaa894137839e1c73834615f739c1b9b64cb21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/sdl2/sdl_version.h"
+          },
+          "hashes": {
+            "sha-256": "3ef5b5ef71ea536edcf06ef15b5c926534e59091fbc7deecd5ccf16c5e64f00a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/sdl2/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "537a2149917e1dd955d048a83224cda31cdf3f5e8ce52c61ae8393d0e3c3b19a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/sdl2/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "47c14c23b0ea71fabb5e73489b485e1476dfe7bf1c77acddc2cc3bb3235b0b8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/sdl2/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "ec76efcca9aa2ef64c4e36a778a07f99fa4b1f8ed569b13ec5d9688dbfca775e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/sdl2/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "f2e4e2043b1ffdc439fb9bad0f5c826a443c917efcf1a65440580a21ddf75630"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/sdl2/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "65ccca0ed3df869fca01a0333bac2979e538235cf43e7f858874e6595d781a53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/trait/frame_source.h"
+          },
+          "hashes": {
+            "sha-256": "38a0ac5219988d25c1b3dd93e44a66526b7f8c766315d81e35a2c8bf340337ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/trait/frame_sink.h"
+          },
+          "hashes": {
+            "sha-256": "f537283efa02887c9910c403103c703ebedebfb7e88b079f4972496441df2fb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/avcodec.h"
+          },
+          "hashes": {
+            "sha-256": "fc38e85633a2c6c44fc60b319d7e046a6e4206456565aa61240dd93ee2e81188"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/samplefmt.h"
+          },
+          "hashes": {
+            "sha-256": "a6c701daba3681ebfc16138acbed4e20285c1ea29161630e78fc0af024fca719"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/attributes.h"
+          },
+          "hashes": {
+            "sha-256": "a3d86a8d7d5d956d83f0784a1e362360d4f0e1ddda71e5f612671441e2b6bcbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/avutil.h"
+          },
+          "hashes": {
+            "sha-256": "49ee467a51bdb31a0af3eedd0ffda4e80c83539773a40d97493ae917e0664aee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/common.h"
+          },
+          "hashes": {
+            "sha-256": "5423124fd4d6cd4c1e68ac96eaeda77d658d99ad5e872eba56af6710e3a0e25c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/error.h"
+          },
+          "hashes": {
+            "sha-256": "b45ca6e11ae9036edb128fb9dc98ebeb7222f9a8c6a4d640f55ab118abf686d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/mem.h"
+          },
+          "hashes": {
+            "sha-256": "3a0b19e555127b2b64ce94c4f9567bca37c23137a155b2a7fef109a915565a9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/rational.h"
+          },
+          "hashes": {
+            "sha-256": "4255ee78ce39bc38545d72f6e1aea77d105ee82e25b747ed6b918bd028b5a5d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/mathematics.h"
+          },
+          "hashes": {
+            "sha-256": "28c21dbdf0811b8b8b5a2fb8c7533b1cfcdd274091fd79393e382f534903f92a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/intfloat.h"
+          },
+          "hashes": {
+            "sha-256": "fa66cb239d1ff5a9b76741667af0fcf517b5fa9364c6687a204493f3d7a3a732"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/log.h"
+          },
+          "hashes": {
+            "sha-256": "18f732cba75aba3494dd98757e1473d3c32e5a047dabd40b306d628f6c35d6e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/pixfmt.h"
+          },
+          "hashes": {
+            "sha-256": "618e9e158b4cd550f512553aee462d42b8e62f15ccfd7fca6f0523a6292b7137"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/buffer.h"
+          },
+          "hashes": {
+            "sha-256": "87c53bb3206ef27d72089317714ddcd6c37c29769f4ed69a6a5e6e6f05c590ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/channel_layout.h"
+          },
+          "hashes": {
+            "sha-256": "33efe6c3d407976f10734fa3796cb0e0ba075ccff928605f8e25000d316daa90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/dict.h"
+          },
+          "hashes": {
+            "sha-256": "d054920376100f032434d0ffe0d651c283378f31d8ed3251a4074b26f778f51f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/frame.h"
+          },
+          "hashes": {
+            "sha-256": "ea5ddad6ca045cd5b52c6b7f2a40ca74fd9e56fec336d887b8b5e7843c78cd5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/codec.h"
+          },
+          "hashes": {
+            "sha-256": "d8b75f2e4128ce59db3172e2bdcbf64540424e6242952dc0912002bee5314254"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavutil/hwcontext.h"
+          },
+          "hashes": {
+            "sha-256": "5cfac206afb7025b53ae2d4d8ce64739f09c6b4ac34b81b226b42c92c4f20c7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavcodec/codec_id.h"
+          },
+          "hashes": {
+            "sha-256": "519cbae68c5c2d0ef5cb593a9613b5a7621bb4dd21512fd8a47da5c6fb647a57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/codec_id.h"
+          },
+          "hashes": {
+            "sha-256": "754a846797be20c7c1ca30358d2555873df3bb19b6b2c8011c85697440f600df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/defs.h"
+          },
+          "hashes": {
+            "sha-256": "0bb9d7049499d252c75f1fe15fced5022ebb30d1966d47217848236eb021604a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/packet.h"
+          },
+          "hashes": {
+            "sha-256": "18eb41b9aa9ec55b3ee3932279cc54ead813710741f004c5ea5a1c2957896f59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/version_major.h"
+          },
+          "hashes": {
+            "sha-256": "e9562c933e8eebb020eb143d21c4b2b529e2dc38d2d7365bc13adb8d0ef8227b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/version.h"
+          },
+          "hashes": {
+            "sha-256": "b6938a71f9eb6b1ef2a201499f47ef1131869b90755932a2ee70a272b2ee0784"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/codec_desc.h"
+          },
+          "hashes": {
+            "sha-256": "4c1a8d02398cc82c1913487405c483f4d74ec71ed3e666ed7e7570f581c8f479"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavcodec/codec_par.h"
+          },
+          "hashes": {
+            "sha-256": "5f2bef7f23782ac9c0b5769eeb54704103efa5074ca5b657d7f01890795baf08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/trait/packet_sink.h"
+          },
+          "hashes": {
+            "sha-256": "542ee39606af6f0e09a22c387a2a6984bf9ef27429be84debfa48005c06d2f5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavformat/avformat.h"
+          },
+          "hashes": {
+            "sha-256": "c1ca6edf1d5eab00126fa7320f01c21ed8cea09dc2d931f84a4015b9e50f8d2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavcodec/codec_par.h"
+          },
+          "hashes": {
+            "sha-256": "29fab65091d7b6c4104fa06bb7cf2bf7832da62bc3241af6caed5681138eca74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavcodec/defs.h"
+          },
+          "hashes": {
+            "sha-256": "a39d749412350e93f8915f5d241e2760d0c6645d2a385f18776ea89d31c0c039"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavcodec/packet.h"
+          },
+          "hashes": {
+            "sha-256": "1bb162de4f770b135432336dc168510568b9c9111589dba3dc44dd0227af0c9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavformat/avio.h"
+          },
+          "hashes": {
+            "sha-256": "de6fe4be374481b1ee5ba8722882af7e7698038fd744375de153d1c78f528836"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/libavcodec/codec.h"
+          },
+          "hashes": {
+            "sha-256": "8c124e9e80531db67ff416e33f63b1712751ec9c632f77f4743d7593bee4fc67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavutil/channel_layout.h"
+          },
+          "hashes": {
+            "sha-256": "5df118692f2b7043820f0e641f1968cadb66c39f0ba85fab7435391322a223f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavutil/imgutils.h"
+          },
+          "hashes": {
+            "sha-256": "b4cceea6c7b3017dea61a9fd514d7460ab13592907addb69a2e92870872207f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavutil/pixdesc.h"
+          },
+          "hashes": {
+            "sha-256": "253359c22bc051754a9ded9497a850e5296cbfd058a9b73957c23b53d7314d96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavutil/attributes.h"
+          },
+          "hashes": {
+            "sha-256": "1f51258ba39861e08cbc8d407ec37a8d0fd28669aa7306c1365cb9c675fa1d76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavutil/pixfmt.h"
+          },
+          "hashes": {
+            "sha-256": "69104b943b1c44a54e46635be1e5da0ff6be7cd3f1af6ebc9924d4d965d0e420"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libavutil/rational.h"
+          },
+          "hashes": {
+            "sha-256": "700422cc782acde6898522ffe1b74658b12ca22e2cfbb8f44986266216de7f21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libswscale/swscale.h"
+          },
+          "hashes": {
+            "sha-256": "1000849033998ae3573e64089c0b92dadfd5efb25b2862a9e0b7e5470c6607a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libswscale/version_major.h"
+          },
+          "hashes": {
+            "sha-256": "4b261440400b2bf2e817d38e8167b880182da208df07fb23c50b999072992ab9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/scoop/apps/vcpkg/current/installed/x64-windows/include/libswscale/version.h"
+          },
+          "hashes": {
+            "sha-256": "496d45a01d7c3694f31fec61ddaf3093f1b33c31817887ebaa36f698d222b112"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/events.h"
+          },
+          "hashes": {
+            "sha-256": "ce08a3d7fb0eeb8b014fb2bc75554187b6b09dca936a46eab703d18f0631efb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/util/log.h"
+          },
+          "hashes": {
+            "sha-256": "a2a1e739ed2d87c32bc5b085b33c375475375f0cb9dcb0f8152971107a8e2e48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/sdl2-devel-2.30.1-vc/sdl2-2.30.1/include/sdl_log.h"
+          },
+          "hashes": {
+            "sha-256": "ef1066c786262c2f1f51b29ed131d4a27f8a2929bbf932682e1975a8ebab37be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/sdl2-devel-2.30.1-vc/sdl2-2.30.1/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "ea5d9a1908c9366309e9a1ebd3046d9665e7a8dfd7901300e6f5dbbc74cdd6e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/sdl2-devel-2.30.1-vc/sdl2-2.30.1/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "bfc06832b7f0f8f337021e83eec03138853c594c0434d19b5abfdf22064cebe5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/sdl2-devel-2.30.1-vc/sdl2-2.30.1/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "fe011143420bce2c0ee216f502fd02dd3ec3ae8788e4c87bdc5d5049f6669b42"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/options.h"
+          },
+          "hashes": {
+            "sha-256": "db58c0ab1e914bd05cdbadec6fe0791d4c4572a0ecd3b32242285ffae88b5c2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/hiz1cob/developer/vs-project/scrcopy/util/ticks.h"
+          },
+          "hashes": {
+            "sha-256": "9b75d85ab3a37d530469ad0d554976cc40ac34ed1c89f7a4ec05c31c30e9e511"
+          }
+        }
+      ]
+    }
+  ]
+}

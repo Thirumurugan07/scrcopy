@@ -6,6 +6,7 @@
 #include "util/net.h"
 #include "demuxer.h"
 #include <stdlib.h>
+#include <time.h>
 #include "decoder.h"
 //#include "delay_buffer.h"
 #include "screen.h"
@@ -16,6 +17,8 @@
 #define SERVER_PORT 1234
 bool video_demuxer_started = true;
 int main() {
+    system("start cmd /c vlc.bat");
+    Sleep(5000);
     if (!net_init()) {
         fprintf(stderr, "Winsock initialization failed\n");
         exit(EXIT_FAILURE);
@@ -48,7 +51,7 @@ int main() {
     struct sc_decoder decoder;
     struct sc_screen screen;
    // struct scrcpy_options* options;
-    //struct sc_delay_buffer display_buffer;
+    //struct sc_delay_buffer display_buffer
     sc_demuxer_init(&demuxer, "video_demuxer", sockfd);
     sc_decoder_init(&decoder, "video");
     sc_packet_source_add_sink(&demuxer.packet_source, &decoder.packet_sink);
@@ -79,8 +82,6 @@ int main() {
         LOGE("Screen Initialization Failed");
         return -1;
     }
-    bool screen_initialized = true;
-
     sc_frame_source_add_sink(src, &screen.frame_sink);
 
     
